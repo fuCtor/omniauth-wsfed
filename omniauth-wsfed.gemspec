@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['kbeckman.c4sc@gmail.com']
   gem.homepage      = 'https://github.com/kbeckman/omniauth-wsfed'
 
-  gem.add_runtime_dependency 'omniauth', '~> 1.1.0'
+  gem.add_runtime_dependency 'omniauth', '=> 1.1.0'
   gem.add_runtime_dependency 'xmlcanonicalizer', '0.1.1'
 
   gem.add_development_dependency 'rspec', '>= 2.12.0'
